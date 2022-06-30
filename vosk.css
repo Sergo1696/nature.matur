@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap');
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background: #fff;
+}
+.header {
+    background: #afd9cd no-repeat center top / cover;
+    /* border: 1px solid black; */
+    
+}
+
+/* меню навигатор, для того чтобы все элементы были в гаризонт мы задаем родителю flex, для того чтобы выровнить элементы по оси - align-items: center; */
+.nav {
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+}
+/* логотип */
+.nav img {
+    margin-left: 25px;
+    width: 90px;
+    height: 90px;
+}
+/* меню навигация */
+.menu {
+    display: flex;
+    list-style: none;
+    margin: auto;
+}
+/* отступы между элементами навигации */
+.menu li {
+    margin-right: 50px;
+}
+/* свойства элементов навигации */
+.menu li a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+    font-style: italic;
+    transition: all 1s;
+    letter-spacing: 0.1rem;
+}
+/* кликабельность эл. навигации */
+.menu li a:hover {
+    color: #000;
+    opacity: .8;
+}
+.container-icon {
+    margin-right: 25px;
+}
+/* ссылки на соц. сети */
+.container-icon a img {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    /* margin-right: 25px; */
+}
+/* кликабельность ссылок на соц сети */
+.container-icon a img:hover {
+    opacity: .4;
+}
+
+.section {
+    margin: 40px 60px 40px 60px;
+    background: #FFF8DC;
+    border-radius: 20px;
+    padding-bottom: 20px;
+}
+.head {
+    padding-top: 40px;
+    width: 100%;
+    margin-bottom: 40px;
+}
+.head h3 {
+    text-align: center;
+    color: #afd9cd;
+}
+.body {
+    width: 100%;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 80px;
+    display: flex;
+
+}
+.body p {
+    color: #afd9cd;
+    font-style: italic;
+    margin-right: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.body img {
+    width: 368px;
+    height: 368px;
+    border-radius: 20px;
+}
+ a {
+    color: #afd9cd;
+    text-decoration: none;
+    padding-left: 40px;
+    padding-bottom: 0px;
+    transition: all .2s;
+}
+a:hover {
+    color: #000;
+}
